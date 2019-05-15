@@ -28,10 +28,14 @@
 			}
 		},
 		{
-			"name": "text.html.handlebars",
-			"begin": "hbs`$",
-			"end": "`",
-			"contentName": "text.html.handlebars"
+			"name": "hbs-template",
+			"match": "hbs`(.|\s)*`",
+			"captures": {
+				"1": {
+					"name": "text.html.handlebars.hbs-template"
+				}
+			}
+
 		}
 	],
 	"repository": {
