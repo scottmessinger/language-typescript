@@ -3235,7 +3235,7 @@
 					"name": "punctuation.definition.string.template.begin.ts"
 				}
 			},
-			"end": "`",
+			"end": "``",
 			"endCaptures": {
 				"0": {
 					"name": "punctuation.definition.string.template.end.ts"
