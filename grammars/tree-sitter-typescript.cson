@@ -112,6 +112,7 @@ scopes:
     },
   ]
 
+  'hbs-template': "text.html.handlebars"
   'number': 'constant.numeric'
   'string': 'string.quoted'
   'regex': 'string.regexp'
