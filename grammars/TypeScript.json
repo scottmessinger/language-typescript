@@ -31,12 +31,7 @@
 			"name": "text.html.handlebars",
 			"begin": "hbs`$",
 			"end": "`",
-			"contentName": "text.html.handlebars",
-			"patterns": [
-			      {
-			        "include": "text.html.handlebars"
-			      }
-			]
+			"contentName": "text.html.handlebars"
 		}
 	],
 	"repository": {
