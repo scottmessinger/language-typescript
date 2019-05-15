@@ -26,6 +26,17 @@
 					"name": "punctuation.definition.comment.ts"
 				}
 			}
+		},
+		{
+			"name": "text.html.handlebars",
+			"begin": "hbs`$",
+			"end": "`",
+			"contentName": "text.html.handlebars",
+			"patterns": [
+			      {
+			        "include": "text.html.handlebars"
+			      }
+			]
 		}
 	],
 	"repository": {
@@ -36,9 +47,6 @@
 				},
 				{
 					"include": "#template"
-				},
-				{
-					"include": "#hbs-template"
 				},
 				{
 					"include": "#comment"
@@ -152,9 +160,6 @@
 				},
 				{
 					"include": "#template"
-				},
-				{
-					"include": "#hbs-template"
 				},
 				{
 					"include": "#comment"
@@ -3212,17 +3217,6 @@
 		"string-character-escape": {
 			"name": "constant.character.escape.ts",
 			"match": "\\\\(x[0-9A-Fa-f]{2}|[0-2][0-7]{0,2}|3[0-6][0-7]?|37[0-7]?|[4-7][0-7]?|.|$)"
-		},
-		"hbs-template": {
-			"name": "text.html.handlebars",
-			"begin": "hbs`$",
-			"end": "`",
-			"contentName": "text.html.handlebars",
-			"patterns": [
-			      {
-			        "include": "text.html.handlebars"
-			      }
-			]
 		},
 		"template": {
 			"name": "string.template.ts",
