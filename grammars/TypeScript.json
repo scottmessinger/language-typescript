@@ -38,6 +38,9 @@
 					"include": "#template"
 				},
 				{
+					"include": "#hbs-template"
+				},
+				{
 					"include": "#comment"
 				},
 				{
@@ -149,6 +152,9 @@
 				},
 				{
 					"include": "#template"
+				},
+				{
+					"include": "#hbs-template"
 				},
 				{
 					"include": "#comment"
