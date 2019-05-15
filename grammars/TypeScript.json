@@ -3215,21 +3215,14 @@
 		},
 		"hbs-template": {
 			"name": "text.html.handlebars",
-			"begin": "(hbs)(`)",
-			"beginCaptures": {
-				"1": {
-					"name": "entity.name.function.tagged-template.ts"
-				},
-				"2": {
-					"name": "punctuation.definition.string.template.begin.ts"
-				}
-			},
+			"begin": "hbs`$",
 			"end": "`",
-			"endCaptures": {
-				"0": {
-					"name": "punctuation.definition.string.template.end.ts"
-				}
-			}
+			"contentName": "text.html.handlebars",
+			"patterns": [
+			      {
+			        "include": "text.html.handlebars"
+			      }
+			]
 		},
 		"template": {
 			"name": "string.template.ts",
