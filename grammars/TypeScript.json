@@ -29,7 +29,7 @@
 		},
 		{
 			"name": "hbs-template",
-			"match": "hbs`(.|\s)*`",
+			"match": "hbs`(.|\\s)*`",
 			"captures": {
 				"1": {
 					"name": "text.html.handlebars.hbs-template"
