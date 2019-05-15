@@ -3234,10 +3234,10 @@
 					"include": "#string-character-escape"
 				},
 				{
-					'include': 'text.html.handlebars'
+					"include": "text.html.handlebars"
 				}
 
-			],
+			]
 		},
 		"template-substitution-element": {
 			"name": "meta.template.expression.ts",
